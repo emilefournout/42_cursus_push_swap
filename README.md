@@ -16,8 +16,8 @@ Take a look at this -> https://phemsi-a.itch.io/push-swap
   2: The input represent the stack that you want to create, you can put all number that you want, but dont put 2 time one number: :arrow_down: :arrow_down: :arrow_down:
   
     ./push_swap 50 20 35 21 1
-    
-    
+      
+      
     ./push_swap 999 22 99 33 88 4 0 -2 8876 5678909876543 -4
 
 An image explain better : 
