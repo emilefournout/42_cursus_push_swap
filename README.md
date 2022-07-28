@@ -10,9 +10,11 @@ Take a look at this -> https://phemsi-a.itch.io/push-swap
   The goal is to sort all the disk into the first stack.
   
   First:
+  
     make && make bonus
   
   Then:
+  
     ./push_swap 50 20 1 -2 30 40
 These value represent the stack that you want to create, you can put all number that you want, but dont put 2 time one number
   
