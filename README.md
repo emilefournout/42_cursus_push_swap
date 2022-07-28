@@ -17,7 +17,7 @@ Take a look at this -> https://phemsi-a.itch.io/push-swap
   
     ./push_swap 50 20 35 21 1
       
-      
+      ---
     ./push_swap 999 22 99 33 88 4 0 -2 8876 5678909876543 -4
 
 An image explain better : 
