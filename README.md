@@ -9,21 +9,17 @@ Take a look at this -> https://phemsi-a.itch.io/push-swap
   
   The goal is to sort all the disk into the first stack.
   
-  First:
+  1: Compil project
   
     make && make bonus
   
-  Then:
+  2: These value represent the stack that you want to create, you can put all number that you want, but dont put 2 time one number
   
     ./push_swap 50 20 1 -2 30 40
-These value represent the stack that you want to create, you can put all number that you want, but dont put 2 time one number
-  
-  
-  
+
+  3: Display 'OK' if instruction sort the stack
     ./push_swap 50 20 1 -2 30 40 | ./checker 50 20 1 -2 30 40
-Display 'OK' if instruction sort the stack
 
-
-
+  4: This display 'KO'
     ./push_swap 50 20 1 -2 30 40 | ./checker 2
-This display 'KO'
+
