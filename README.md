@@ -13,7 +13,7 @@ Take a look at this -> https://phemsi-a.itch.io/push-swap
   
     make && make bonus
   
-  2: These value represent the stack that you want to create, you can put all number that you want, but dont put 2 time one number, 
+  2: These value represent the stack that you want to create, you can put all number that you want, but dont put 2 time one number: 
   
     ./push_swap 50 20 35 21 1
 
