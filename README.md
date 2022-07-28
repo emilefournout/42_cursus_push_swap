@@ -18,8 +18,10 @@ Take a look at this -> https://phemsi-a.itch.io/push-swap
     ./push_swap 50 20 1 -2 30 40
 
   3: Display 'OK' if instruction sort the stack
+    
     ./push_swap 50 20 1 -2 30 40 | ./checker 50 20 1 -2 30 40
 
   4: This display 'KO'
+    
     ./push_swap 50 20 1 -2 30 40 | ./checker 2
 
