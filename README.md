@@ -9,11 +9,11 @@ Take a look at this -> https://phemsi-a.itch.io/push-swap
   
   The goal is to sort all the disk into the first stack.
   
-  1: Compil project
+  1: Compil project :arrow_down: :arrow_down: :arrow_down:
   
     make && make bonus
   
-  2: These value represent the stack that you want to create, you can put all number that you want, but dont put 2 time one number: 
+  2: These value represent the stack that you want to create, you can put all number that you want, but dont put 2 time one number: :arrow_down: :arrow_down: :arrow_down:
   
     ./push_swap 50 20 35 21 1
     ./push_swap 999 22 99 33 88 4 0 -2 8876 5678909876543 -4
@@ -32,11 +32,11 @@ the output is the instruction to sort the stack: 50 20 35 21 1 (equivalent to 5 
     pa
     pa
 
-  3: Display 'OK' if instruction sort the stack
+  3: Display 'OK' if instruction sort the stack :arrow_down: :arrow_down: :arrow_down:
     
     ./push_swap 50 20 1 -2 30 40 | ./checker 50 20 1 -2 30 40
 
-  4: This display 'KO'
+  4: This display 'KO' :arrow_down: :arrow_down: :arrow_down: 
     
     ./push_swap 50 20 1 -2 30 40 | ./checker 2
 
