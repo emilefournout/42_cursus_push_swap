@@ -22,6 +22,7 @@ Take a look at this -> https://phemsi-a.itch.io/push-swap
 An image explain better : 
 
 <img width="248" alt="stack" src="https://user-images.githubusercontent.com/77667022/181591697-e9077271-3497-4231-90c0-4fa54a08ff95.png">
+<img width="248" alt="stack2" src="https://user-images.githubusercontent.com/77667022/181595312-0ecb4226-cead-4bd2-b7a7-534c2145d8f6.png">
 
 the output is the instruction to sort the stack: 50 20 35 21 1 (equivalent to 5 2 4 3 1)
 
