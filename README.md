@@ -16,8 +16,9 @@ Take a look at this -> https://phemsi-a.itch.io/push-swap
   2: These value represent the stack that you want to create, you can put all number that you want, but dont put 2 time one number: 
   
     ./push_swap 50 20 35 21 1
+    ./push_swap 999 22 99 33 88 4 0 -2 8876 5678909876543 -4
 
-the output is the instruction to sort the stack:
+the output is the instruction to sort the stack: 50 20 35 21 1 (equivalent to 5 2 4 2 1)
 
     rra
     pb
