@@ -24,6 +24,7 @@ An image explain better :
 
 the output is the instruction to sort the stack: 50 20 35 21 1 (equivalent to 5 2 4 3 1)
 
+    ./push_swap 50 20 35 21 1
     rra
     pb
     ra
