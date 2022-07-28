@@ -17,7 +17,7 @@ Take a look at this -> https://phemsi-a.itch.io/push-swap
   
     ./push_swap 50 20 35 21 1
 
-the output is the instruction to sort the stack
+the output is the instruction to sort the stack:
 
     rra
     pb
