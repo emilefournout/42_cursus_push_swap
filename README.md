@@ -6,9 +6,9 @@ Visualisation of my sorting stack algorithm
 
 ![push_swap_50](https://user-images.githubusercontent.com/77667022/181585303-184953fa-c302-4ed0-9715-2eb3631b5b4e.gif)
 
-Take a look at this -> https://phemsi-a.itch.io/push-swap
+A game to understand push_swap game -> https://phemsi-a.itch.io/push-swap
 <img width="1191" alt="Capture d’écran 2022-07-28 à 17 18 36" src="https://user-images.githubusercontent.com/77667022/181585257-1e9f80cf-5523-4a67-8abe-4ed0c0c17c8c.png">
-  A game to understand push_swap game -> https://phemsi-a.itch.io/push-swap
+
   
   The goal is to sort all the disk into the first stack.
   
