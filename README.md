@@ -19,13 +19,13 @@ Take a look at this -> https://phemsi-a.itch.io/push-swap
 
 the output is the instruction to sort the stack
 
-  rra
-  pb
-  ra
-  pb
-  sa
-  pa
-  pa
+    rra
+    pb
+    ra
+    pb
+    sa
+    pa
+    pa
 
   3: Display 'OK' if instruction sort the stack
     
