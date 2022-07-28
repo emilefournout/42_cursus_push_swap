@@ -1,7 +1,7 @@
 # push_swap
 
 Take a look at this unity game -> https://phemsi-a.itch.io/push-swap
-
+---
 Visualisation of my sorting stack algorithm
 
 ![push_swap_50](https://user-images.githubusercontent.com/77667022/181585303-184953fa-c302-4ed0-9715-2eb3631b5b4e.gif)
