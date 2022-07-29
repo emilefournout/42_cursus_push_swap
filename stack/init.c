@@ -6,7 +6,7 @@
 /*   By: efournou <efournou@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/16 19:09:55 by efournou          #+#    #+#             */
-/*   Updated: 2022/07/27 10:34:49 by efournou         ###   ########.fr       */
+/*   Updated: 2022/07/29 12:36:40 by efournou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,6 +61,8 @@ int	*argv_to_int(int argc, char *argv[])
 
 	index = 0;
 	return_tab = (int *)malloc((argc - 1) * sizeof(int));
+	if (return_tab == (void *)0)
+		exit_program("Error\n", return_tab, NULL, NULL);
 	while (argv[index + 1] != NULL)
 	{
 		number = ft_atoi(argv[index + 1], return_tab);
@@ -69,34 +71,6 @@ int	*argv_to_int(int argc, char *argv[])
 		index++;
 	}
 	return (return_tab);
-}
-
-int	*number_to_weight(int *argv_to_int_tab, int argc)
-{
-	int	index;
-	int	tempo_index;
-	int	weight;
-	int	weight_index;
-	int	*new_weight_tab;
-
-	new_weight_tab = (int *)malloc((argc - 1) * sizeof(int));
-	index = 0;
-	weight_index = 0;
-	while (index != argc - 1)
-	{
-		weight = 1;
-		tempo_index = 0;
-		while (tempo_index != argc - 1)
-		{
-			if (argv_to_int_tab[tempo_index] < argv_to_int_tab[weight_index])
-				weight++;
-			tempo_index++;
-		}
-		new_weight_tab[weight_index] = weight;
-		weight_index++;
-		index++;
-	}
-	return (new_weight_tab);
 }
 
 t_list	*int_to_list(int argc, int *tab)

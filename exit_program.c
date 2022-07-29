@@ -6,7 +6,7 @@
 /*   By: efournou <efournou@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/16 20:08:21 by efournou          #+#    #+#             */
-/*   Updated: 2022/07/19 05:27:12 by efournou         ###   ########.fr       */
+/*   Updated: 2022/07/29 12:14:13 by efournou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,10 +38,12 @@ void	free_list(t_list *list)
 
 void	free_all(int *weight_tab, t_list *stack_a, t_list *stack_b)
 {
-	if (weight_tab)
+	if (weight_tab != (void *) 0)
 		free(weight_tab);
-	free_list(stack_a);
-	free_list(stack_b);
+	if (stack_a != (void *) 0)
+		free_list(stack_a);
+	if (stack_b != (void *) 0)
+		free_list(stack_b);
 }
 
 static void	print_string_on_stderr(char *string)

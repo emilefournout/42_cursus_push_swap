@@ -7,6 +7,7 @@ NAME_LIBRARY		=		libpushswap.a
 NAME_LIBRARY_BONUS	=		bonus/libpushswap_bonus.a
 
 SRCS				=		stack/init.c \
+							stack/number_to_weight.c \
 							stack/list_utils.c \
 							stack/push.c \
 							stack/swap.c \
@@ -17,7 +18,7 @@ SRCS				=		stack/init.c \
 							bruteforce/detect_useless_instruction.c \
 							bruteforce/print_instruction.c \
 							radix.c \
-							exit_program.c
+							exit_program.c 
 
 SRCS_BONUS			=		bonus/checker_utils_bonus.c \
 							bonus/ft_strncmp_bonus.c \
