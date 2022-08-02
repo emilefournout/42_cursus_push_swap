@@ -46,4 +46,4 @@ the output is the instruction to sort the stack: 50 20 35 21 1 (equivalent to 5 
     
     ./push_swap 50 20 1 -2 30 40 | ./checker 2
 
-How it work ? https://medium.com/nerd-for-tech/push-swap-tutorial-fa746e6aba1e this explain better 
+How it work ? I use radix algorithme, that is very well explained by this tutorial -> https://medium.com/nerd-for-tech/push-swap-tutorial-fa746e6aba1e this explain better 
