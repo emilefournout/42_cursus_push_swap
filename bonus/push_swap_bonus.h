@@ -6,7 +6,7 @@
 /*   By: efournou <efournou@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/19 05:05:12 by efournou          #+#    #+#             */
-/*   Updated: 2022/07/26 16:30:05 by efournou         ###   ########.fr       */
+/*   Updated: 2022/08/01 16:40:58 by efournou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,10 +19,7 @@
 char		detect_command(char *instruction);
 int			execute_single_instruction(t_list **stack_a, t_list **stack_b,
 				char instruction);
-t_list_char	*ft_lstchar_new(char content);
-int			apply_stdin_instruction(t_list **stack_a, t_list **stack_b,
-				t_list_char *instruction);
-void		print_list_instruction(t_list_char *instruction);
+int			apply_stdin_instruction(t_list **stack_a, t_list **stack_b);
 
 int			ft_strncmp(const char *s1, const char *s2, size_t n);
 

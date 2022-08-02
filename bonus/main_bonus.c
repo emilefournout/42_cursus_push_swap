@@ -6,7 +6,7 @@
 /*   By: efournou <efournou@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/19 05:05:10 by efournou          #+#    #+#             */
-/*   Updated: 2022/07/26 14:55:25 by efournou         ###   ########.fr       */
+/*   Updated: 2022/08/01 16:34:37 by efournou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,25 +18,18 @@ static void	checker(int argc, char *argv[])
 	int			*weight_tab;
 	t_list		*stack_a;
 	t_list		*stack_b;
-	t_list_char	*instruction;
 
 	argv_to_int_tab = argv_to_int(argc, argv);
 	weight_tab = number_to_weight(argv_to_int_tab, argc);
 	stack_a = int_to_list(argc, argv_to_int_tab);
 	free(argv_to_int_tab);
 	stack_b = NULL;
-	instruction = ft_lstchar_new((char)0);
-	if (apply_stdin_instruction(&stack_a, &stack_b, instruction) == 1)
-	{
-		free_t_list_char(instruction);
+	if (apply_stdin_instruction(&stack_a, &stack_b) == 1)
 		exit_program("Error\n", weight_tab, stack_a, stack_b);
-	}
-	print_list_instruction(instruction);
 	if (check_list_sorted_bonus(stack_a, stack_b) == 0)
 		write(1, "OK\n", 3);
 	else
 		write(1, "KO\n", 3);
-	free_t_list_char(instruction);
 	exit_program("\0", weight_tab, stack_a, stack_b);
 }
 
