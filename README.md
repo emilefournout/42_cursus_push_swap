@@ -50,4 +50,5 @@ the output is the instruction to sort the stack: 50 20 35 21 1 (equivalent to 5 
 
 How it work ? 
 Between 1 and 5 input number, my program simply bruteforce to find the best solution as possible.
+
 If there is more input number, I use radix algorithme, that is very well explained by this tutorial -> https://medium.com/nerd-for-tech/push-swap-tutorial-fa746e6aba1e
