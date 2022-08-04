@@ -6,23 +6,11 @@
 /*   By: efournou <efournou@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/16 20:08:21 by efournou          #+#    #+#             */
-/*   Updated: 2022/07/29 12:14:13 by efournou         ###   ########.fr       */
+/*   Updated: 2022/08/01 16:40:42 by efournou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
-
-void	free_t_list_char(t_list_char *list)
-{
-	t_list_char	*next_saver;
-
-	while (list)
-	{
-		next_saver = list->next;
-		free(list);
-		list = next_saver;
-	}
-}
 
 void	free_list(t_list *list)
 {

@@ -6,7 +6,7 @@
 /*   By: efournou <efournou@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/16 20:08:42 by efournou          #+#    #+#             */
-/*   Updated: 2022/07/28 06:49:43 by efournou         ###   ########.fr       */
+/*   Updated: 2022/08/01 16:40:35 by efournou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,11 +22,6 @@ typedef struct s_list
 	struct s_list		*next;
 }						t_list;
 
-typedef struct s_list_char
-{
-	char				content;
-	struct s_list_char	*next;
-}						t_list_char;
 struct					s_stack
 {
 	t_list				**a;
@@ -68,7 +63,6 @@ void					radix(t_list **stack_a, t_list **stack_b, int argc);
 void					exit_program(char *error_message, int *weight_tab,
 							t_list *stack_a, t_list *stack_b);
 void					free_list(t_list *list);
-void					free_t_list_char(t_list_char *list);
 void					free_all(int *weight_tab, t_list *stack_a,
 							t_list *stack_b);
 int						ft_strncmp(const char *s1, const char *s2, size_t n);
